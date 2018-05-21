@@ -4,21 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JasonTy/JasonBlog.git"
   },
-  "author": "",
+  "author": "1026443062@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JasonTy/JasonBlog/issues"
   },
   "homepage": "https://github.com/JasonTy/JasonBlog#readme",
-  "devDependencies": {
-    "webpack": "^4.7.0",
-    "webpack-cli": "^2.1.2",
-    "webpack-dev-server": "^3.1.4"
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "sequelize": "^4.37.8"
   }
 }
