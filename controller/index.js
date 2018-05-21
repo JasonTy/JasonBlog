@@ -1,3 +1,3 @@
 exports.getList = (ctx, next) => {
-    ctx.body = 'dasdsada213';
+    ctx.body = 'hello world';
 }
