@@ -3,6 +3,8 @@ const router = new Router();
 
 const blogController = require('./../controller/index');
 
-router.get('/', blogController.blogList);
+router.post('/v1/api/blogList', blogController.blogList);
+
+router.post('/v1/api/blogDetail', blogController.blogDetail);
 
 module.exports = router;
