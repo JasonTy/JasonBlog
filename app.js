@@ -10,5 +10,9 @@ app
     .use(router.routes())
     .use(router.allowedMethods());
 
+app.on('error', err => {
+
+});
+
 
 app.listen(8008);

@@ -4,7 +4,7 @@ const router = new Router();
 const blogController = require('./../controller/index');
 
 
-router.get('/', blogController.getList);
+router.get('/', blogController.blogList);
 
 router.get('/tangyi', (ctx, next) => {
     ctx.body = "tangyi1234";
