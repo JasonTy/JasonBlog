@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JasonTy/JasonBlog#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "koa": "^2.5.1",
     "koa-compress": "^3.0.0",
     "koa-response-time": "^2.0.0",
