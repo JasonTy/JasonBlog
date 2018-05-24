@@ -28,7 +28,7 @@ exports.blogDetail = async (ctx, next) => {
         const blog = await model.blogDetail(id);
         ctx.body = {
             data: blog
-        };
+        }
     } catch (e) {
         ctx.throw(e);
     }
