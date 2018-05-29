@@ -11,7 +11,8 @@ const Blog = sequelize.define('blog', {
     } ,
     title: Sequelize.STRING,
     content: Sequelize.TEXT,
-    stitle: Sequelize.STRING
+    stitle: Sequelize.STRING,
+    scontent: Sequelize.STRING
 }, {
     freezeTableName: true, // 不在表名称后默认加s
     timestamps: false // 去掉默认字段

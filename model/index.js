@@ -5,7 +5,7 @@ const Blog = require('./orm/blog');
  */
 exports.blogList = async () => {
     return Blog.findAll({
-        attributes: ['id', 'title', 'stitle'],
+        attributes: ['id', 'title', 'stitle', 'scontent'],
         order: [
             ['id', 'desc']
         ]
